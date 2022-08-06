@@ -1,1 +1,1 @@
-#It's 1 of 2 versions of timer
+#It's 1st of 2 versions of timers
