@@ -25,7 +25,6 @@ function startTimer(){
 }
 
 function timeLeft(){
-    console.log(secondsLeft.innerText)
     secondsLeft.innerText = parseInt(secondsLeft.innerText) - 1;
     if (secondsLeft.innerText == 0 && minutesLeft.innerText == 0 && hoursLeft.innerText == 0) {timerStopped(); return;}
     if (secondsLeft.innerText == -1){
